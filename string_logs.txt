@@ -1,0 +1,117 @@
+>>> string.lower()
+'gopal'
+>>> string.upper()
+'GOPAL'
+>>> 
+>>> string.isalpha()
+True
+>>> 
+>>> string.isdigit()
+False
+>>> 
+>>> string.isspace()
+False
+>>> string.startwith('g')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'startwith'
+>>> 
+>>> string.starstwith('g')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'starstwith'
+>>> 
+>>> 
+>>> string.startswith('g')
+False
+>>> 
+>>> string.startswith('G')
+True
+>>> string.endswith('l')
+True
+>>> string.endswith('g')
+False
+>>> string.find('G')
+0
+>>> string.find('Q')
+-1
+>>> 
+>>> string.find('l')
+4
+>>> string.find('o')
+1
+>>> string.find('p')
+2
+>>> 
+>>> string.find('a')
+3
+>>> string.replace('Gopal', 'Mule')
+'Mule'
+>>> 
+>>> string
+'Gopal'
+>>> string.replace('Gopal', 'Mule')
+'Mule'
+>>> string.split(,)
+  File "<stdin>", line 1
+    string.split(,)
+                 ^
+SyntaxError: invalid syntax
+>>> 
+>>> string.split(',')
+['Gopal']
+>>> string1='Mama'
+>>> 'a'.split('i')
+['a']
+>>> string1.split('i')
+['Mama']
+>>> 'aaa,bbb,ccc'.split(',')
+['aaa', 'bbb', 'ccc']
+>>> 'aaa,bbb,ccc'.split(',')
+['aaa', 'bbb', 'ccc']
+>>> string1.count()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: count() takes at least 1 argument (0 given)
+>>> 
+>>> '---'.join(['aaa','bbb','ccc'])
+'aaa---bbb---ccc'
+>>> string1.join(['aaa','bbb','ccc'])
+'aaaMamabbbMamaccc'
+>>> 
+>>> string1.count()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: count() takes at least 1 argument (0 given)
+>>> string1
+'Mama'
+>>> string
+'Gopal'
+>>> string.title()
+'Gopal'
+>>> string2='pradnya'
+>>> 
+>>> string2.title()
+'Pradnya'
+>>> 
+>>> string2.swapcase()
+'PRADNYA'
+>>> string1.swapcase()
+'mAMA'
+>>> stre0ng1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'stre0ng1' is not defined
+>>> 
+>>> string1
+'Mama'
+>>> string1[1:100]
+'ama'
+>>> string1[-1:100]
+'a'
+>>> string1[-1:-2]
+''
+>>> string1[-1:]
+'a'
+>>> string1[-2:]
+
