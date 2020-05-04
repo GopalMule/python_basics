@@ -23,3 +23,13 @@ def main():
 if __name__=='__main__':
     main()
 
+#Output:
+#python both_ends.py
+'''
+Goal
+aa
+helo
+spng
+xyyz
+a
+'''

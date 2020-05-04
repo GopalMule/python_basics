@@ -3,9 +3,9 @@
 # C. fix_start
 # Given a string s, return a string
 # where all occurences of its first char have
-# been changed to '*', except do not change
+# been changed to '*', change
 # the first char itself.
-# e.g. 'babble' yields 'ba**le'
+# e.g. 'babble' yields '*abble'
 # Assume that the string is length 1 or more.
 # Hint: s.replace(stra, strb) returns a version of string s
 # where all instances of stra have been replaced by strb.
@@ -24,3 +24,12 @@ def main():
 if __name__=='__main__':
     main()
 
+#Output:
+#python fix_end.py 
+'''
+*abble
+*aggle
+*ardvark
+*oogle
+*onut
+'''

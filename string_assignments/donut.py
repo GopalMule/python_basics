@@ -28,3 +28,13 @@ def main():
 if __name__=='__main__':
     main()
 
+#Output:
+#python donut.py
+'''
+Donuts count: many
+Number of donuts 5
+Number of donuts 0
+Number of donuts 9
+Donuts count: many
+Donuts count: many
+'''
