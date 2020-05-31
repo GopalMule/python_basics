@@ -1,0 +1,86 @@
+gopal@gopal-desktop:~/Desktop/Python/python_basics/files$ python
+Python 2.7.12 (default, Apr 15 2020, 17:07:12) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> dict={}
+>>> dict['a']='alpha'
+>>> dict['c']='cat'
+>>> dict['z']='zebra'
+>>> dict['b']='ball'
+>>> 
+>>> dict
+{'a': 'alpha', 'c': 'cat', 'z': 'zebra', 'b': 'ball'}
+>>> 
+>>> dict2={'a': 'apple', 'c': 'cat', 'z': 'zebra', 'b': 'banana'}
+>>> 
+>>> dict2
+{'a': 'apple', 'c': 'cat', 'z': 'zebra', 'b': 'banana'}
+>>> 
+>>> dict
+{'a': 'alpha', 'c': 'cat', 'z': 'zebra', 'b': 'ball'}
+>>> dict2.keys()
+['a', 'c', 'z', 'b']
+>>> 
+>>> dict2.values()
+['apple', 'cat', 'zebra', 'banana']
+>>> 
+>>> print dict.items()
+[('a', 'alpha'), ('c', 'cat'), ('z', 'zebra'), ('b', 'ball')]
+>>> 
+>>> 
+>>> print dict2.items()
+[('a', 'apple'), ('c', 'cat'), ('z', 'zebra'), ('b', 'banana')]
+>>> 
+>>> for k, v in dict.items(): print k, '>', v
+... 
+a > alpha
+c > cat
+z > zebra
+b > ball
+
+>>> for k, v in dict.items(): print k, '>', v
+... 
+a > alpha
+c > cat
+z > zebra
+b > ball
+>>> 
+>>> for k, v in dict.items(): print k, '>', v
+... 
+a > alpha
+c > cat
+z > zebra
+b > ball
+
+>>> for key in sorted(dict.keys()):
+...     print key, dict[key]
+... 
+a alpha
+b ball
+c cat
+z zebra
+>>> dict
+{'a': 'alpha', 'c': 'cat', 'z': 'zebra', 'b': 'ball'}
+>>> 
+dict2={'a': 'apple', 'c': 'cat', 'z': 'zebra', 'b': 'banana'}
+===================================================================================
+>>> dict={'a' = 'apple', 'b'='ball'}
+  File "<stdin>", line 1
+    dict={'a' = 'apple', 'b'='ball'}
+              ^
+SyntaxError: invalid syntax
+>>> dict={'a': 'apple', 'b':'ball'} # This is correct
+>>> 
+
+>>> dict[a]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a' is not defined
+>>> dict['a']
+'apple'
+>>> 
+>>> dict['b']
+'ball'
+>>> 
+
+
